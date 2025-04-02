@@ -3,6 +3,11 @@
 ## Overview
 The MM5 dataset is a comprehensive multimodal dataset capturing RGB, Depth, Thermal (LWIR), Ultraviolet (UV), and Near-Infrared (NIR) images. It is designed for advanced multimodal research, providing diverse modalities, annotated data, and carefully calibrated and aligned images.
 
+## Download Links
+- [Download Link for Raw Data](https://[placeholder-for-raw-data-download])
+- [Download Link for Processed Data](https://[placeholder-for-processed-data-download])
+- [Download Link for Annotations](https://[placeholder-for-annotations-download])
+
 ## Dataset Contents
 
 The dataset consists of:
@@ -12,6 +17,8 @@ The dataset consists of:
 - Ultraviolet images.
 - Near-infrared images (16-bit raw).
 - Pixel-wise annotations for segmentation, instance segmentation, and classification both, for the aligned/cropped data as well as for the raw data.
+
+![MM5 Images](MM5_images.PNG)
 
 ## Dataset Structure
 
@@ -91,6 +98,7 @@ MM5_ALIGNED/
 ├── ANNO_VIS_INST/
 ├── D/
 ├── D_Focus/
+├── D_FocusN/
 ├── D_Focus960N/
 ├── D_16
 ├── I
@@ -112,11 +120,6 @@ Next to the labels for the aligned data, also the labels for the raw thermal and
 
 ## Data Usage and Recommendations
 To avoid redundant duplication, modalities such as depth, thermal, and IR, which do not vary across different RGB lighting conditions, are stored once. Researchers wishing to train across multiple or all lighting conditions must explicitly pair shared modalities with each RGB dataset. This can be efficiently managed by custom data loader scripts or restructuring the dataset to meet specific research requirements.
-
-## Download Links
-- [Download Link for Raw Data](https://[placeholder-for-raw-data-download])
-- [Download Link for Processed Data](https://[placeholder-for-processed-data-download])
-- [Download Link for Annotations](https://[placeholder-for-annotations-download])
 
 ## File Naming Conventions
 Raw data files follow this pattern:
