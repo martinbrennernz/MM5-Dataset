@@ -4,10 +4,20 @@
 The MM5 dataset is a comprehensive multimodal dataset capturing RGB, Depth, Thermal (LWIR), Ultraviolet (UV), and Near-Infrared (NIR) images. It is designed for advanced multimodal research, providing diverse modalities, annotated data, and carefully calibrated and aligned images.
 
 ## Download Links
-- [Download Link for Raw Data](https://[placeholder-for-raw-data-download])
-- [Download Link for Processed Data](https://[placeholder-for-processed-data-download])
-- [Download Link for Annotations](https://[placeholder-for-annotations-download])
+- [Download Link for Raw Data (incl. raw annotations)](https://figshare.com/ndownloader/files/53391806)
+- [Download Link for Aligned/Cropped Data(incl. aligned annotations)](https://figshare.com/ndownloader/files/53391785)
+- [Download Link for Label Studio annotations (JSON & COCO exports)](https://figshare.com/ndownloader/files/53391779)
+- [Download Link for MM5 Calibration Images](https://figshare.com/ndownloader/files/53391776)
 
+## Usage and Citation
+If you use this dataset, please cite our publication:
+```
+Brenner, Martin; Susnjak, Teo; Reyes, Napoleon; Barczak, Andre (2025). MM5: Multimodal Image Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.28722164
+```
+
+## License
+This dataset is available under [Creative Commons Attribution-NonCommercial 4.0](https://creativecommons.org/licenses/by/4.0/).
+  
 ## Dataset Contents
 
 The dataset consists of:
@@ -117,6 +127,7 @@ MM5_ALIGNED/
 Annotations include class labels and instance(object) labels in pixel-level formats, available both visually (for quick reference) and as raw data for model training.
 Next to the labels for the aligned data, also the labels for the raw thermal and UV data are included.
 
+![MM5 Labelling](MM5_labelling.png)
 
 ## Data Usage and Recommendations
 To avoid redundant duplication, modalities such as depth, thermal, and IR, which do not vary across different RGB lighting conditions, are stored once. Researchers wishing to train across multiple or all lighting conditions must explicitly pair shared modalities with each RGB dataset. This can be efficiently managed by custom data loader scripts or restructuring the dataset to meet specific research requirements.
@@ -135,23 +146,6 @@ Processed data files follow a sequential naming convention:
 ```
 [FrameNumber]_[Modality].png
 ```
-
-## Usage and Citation
-If you use this dataset, please cite our publication:
-```
-[Insert your citation details here]
-```
-
-## License
-This dataset is available under [Insert License Type, e.g., Creative Commons Attribution-NonCommercial 4.0 International License].
-
-## Contact
-For questions, suggestions, or feedback, please contact:
-- [Your Name and/or Team Name]
-- Email: [your-email@example.com]
-
-## Updates
-This dataset is regularly updated with additional scenes, modalities, and annotations. Please check back periodically for updates.
 
 ## Acknowledgments
 [Include acknowledgments to funding agencies, supporting institutions, or contributors here.]
