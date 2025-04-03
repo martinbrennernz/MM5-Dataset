@@ -10,7 +10,7 @@ The MM5 dataset is a comprehensive multimodal dataset capturing RGB, Depth, Ther
 - [Download Link for MM5 Calibration Images](https://figshare.com/ndownloader/files/53391776)
 
 ## Usage and Citation
-If you use this dataset, please cite our publication:
+If you use this dataset, please cite our publication and the dataset:
 ```
 Brenner, Martin; Susnjak, Teo; Reyes, Napoleon; Barczak, Andre (2025). MM5: Multimodal Image Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.28722164
 ```
@@ -147,6 +147,10 @@ Processed data files follow a sequential naming convention:
 [FrameNumber]_[Modality].png
 ```
 
-## Acknowledgments
-[Include acknowledgments to funding agencies, supporting institutions, or contributors here.]
+## Related Survey
+[RGB-D and Thermal Sensor Fusion: A Systematic Literature Review](https://ieeexplore.ieee.org/abstract/document/10201865)
+```
+M. Brenner, N. H. Reyes, T. Susnjak and A. L. C. Barczak, "RGB-D and Thermal Sensor Fusion: A Systematic Literature Review," in IEEE Access, vol. 11, pp. 82410-82442, 2023, doi: 10.1109/ACCESS.2023.3301119.
+keywords: {Thermal sensors;Cameras;Three-dimensional displays;Sensor fusion;Robot sensing systems;Feature extraction;Systematics;Multimodal;RGB-D;RGB-DT;RGB-T;sensor fusion;thermal},
+```
 
