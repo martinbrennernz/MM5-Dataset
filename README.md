@@ -4,6 +4,8 @@
 The MM5 dataset is a comprehensive multimodal dataset capturing RGB, Depth, Thermal (LWIR), Ultraviolet (UV), and Near-Infrared (NIR) images. It is designed for advanced multimodal research, providing diverse modalities, annotated data, and carefully calibrated and aligned images.
 
 ## Download Links
+figshare: [https://doi.org/10.6084/m9.figshare.28722164](https://doi.org/10.6084/m9.figshare.28722164)
+
 - [Download Link for Raw Data (incl. raw annotations)](https://figshare.com/ndownloader/files/53391806)
 - [Download Link for Aligned/Cropped Data(incl. aligned annotations)](https://figshare.com/ndownloader/files/53391785)
 - [Download Link for Label Studio annotations (JSON & COCO exports)](https://figshare.com/ndownloader/files/53391779)
