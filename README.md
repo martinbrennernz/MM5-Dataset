@@ -7,7 +7,7 @@ The MM5 dataset is a comprehensive multimodal dataset capturing RGB, Depth, Ther
 figshare: [https://doi.org/10.6084/m9.figshare.28722164](https://doi.org/10.6084/m9.figshare.28722164)
 
 - [Download Link for Raw Data (incl. raw annotations)](https://figshare.com/ndownloader/files/53391806)
-- [Download Link for Aligned/Cropped Data(incl. aligned annotations)](https://figshare.com/ndownloader/files/53391785)
+- [Download Link for Aligned/Cropped Data(incl. aligned annotations)](https://figshare.com/ndownloader/files/53410667)
 - [Download Link for Label Studio annotations (JSON & COCO exports)](https://figshare.com/ndownloader/files/53391779)
 - [Download Link for MM5 Calibration Images](https://figshare.com/ndownloader/files/53391776)
 
