@@ -110,7 +110,6 @@ MM5_ALIGNED/
 ├── ANNO_VIS_INST/
 ├── D/
 ├── D_Focus/
-├── D_FocusN/
 ├── D_Focus960N/
 ├── D_16
 ├── I
