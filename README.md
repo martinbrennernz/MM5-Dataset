@@ -14,7 +14,7 @@ figshare: [https://doi.org/10.6084/m9.figshare.28722164](https://doi.org/10.6084
 ## Usage and Citation
 If you use this dataset, please cite our publication and the dataset:
 ```
-Brenner, Martin; Susnjak, Teo; Reyes, Napoleon; Barczak, Andre (2025). MM5: Multimodal Image Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.28722164
+Brenner, Martin; Reyes, Napoleon; Susnjak, Teo; Barczak, Andre (2025). MM5: Multimodal Image Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.28722164
 ```
 
 ## License
