@@ -1,5 +1,5 @@
 # MM5 Multimodal Dataset
-
+![MM5](Graphical_abstract.png)
 ## Overview
 The MM5 dataset is a comprehensive multimodal dataset capturing RGB, Depth, Thermal (LWIR), Ultraviolet (UV), and Near-Infrared (NIR) images. It is designed for advanced multimodal research, providing diverse modalities, annotated data, and carefully calibrated and aligned images.
 
@@ -16,6 +16,11 @@ If you use this dataset, please cite our publication and the dataset:
 ```
 Brenner, Martin; Reyes, Napoleon; Susnjak, Teo; Barczak, Andre (2025). MM5: Multimodal Image Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.28722164
 ```
+```
+Brenner, Martin and Reyes, Napoleon H. and Susnjak, Teo and Barczak, Andre L. C., MM5: Multimodal Image Capture and Dataset Generation for RGB, Depth, Thermal, UV, and NIR. Available at SSRN: https://ssrn.com/abstract=5227457 or http://dx.doi.org/10.2139/ssrn.5227457
+```
+## Preprint on SSRN
+[MM5: Multimodal Image Capture and Dataset Generation for RGB, Depth, Thermal, UV, and NIR](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5227457)
 
 ## License
 This dataset is available under [Creative Commons Attribution-NonCommercial 4.0](https://creativecommons.org/licenses/by/4.0/).
