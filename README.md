@@ -3,13 +3,21 @@
 ## Overview
 The MM5 dataset is a comprehensive multimodal dataset capturing RGB, Depth, Thermal (LWIR), Ultraviolet (UV), and Near-Infrared (NIR) images. It is designed for advanced multimodal research, providing diverse modalities, annotated data, and carefully calibrated and aligned images.
 
+## Version
+Make sure you download the latest version.
+- 2025-04-23 - Initial version.
+- 2025-06-23 - Updated:  
+  - Added IAIP (Geometrically aligned intensity data created by using inpainted depth data – can include distortions)
+  - Fixed labels (removed underrepresented "sliced" classes)
+  - Fixed missing image issue in some processed data.
+  
 ## Download Links
 figshare: [https://doi.org/10.6084/m9.figshare.28722164](https://doi.org/10.6084/m9.figshare.28722164)
 
-- [Download Link for Raw Data (incl. raw annotations)](https://figshare.com/ndownloader/files/53391806)
-- [Download Link for Aligned/Cropped Data(incl. aligned annotations)](https://figshare.com/ndownloader/files/53460665)
-- [Download Link for Label Studio annotations (JSON & COCO exports)](https://figshare.com/ndownloader/files/53391779)
-- [Download Link for MM5 Calibration Images](https://figshare.com/ndownloader/files/53391776)
+- [Download Link for Raw Data (incl. raw annotations)](https://figshare.com/ndownloader/files/55555451)
+- [Download Link for Aligned/Cropped Data(incl. aligned annotations)](https://figshare.com/ndownloader/files/55555457)
+- [Download Link for Label Studio annotations (JSON & COCO exports)](https://figshare.com/ndownloader/files/55555424)
+- [Download Link for MM5 Calibration Images](https://figshare.com/ndownloader/files/55555421)
 
 ## Usage and Citation
 If you use this dataset, please cite our publication and the dataset:
@@ -81,8 +89,8 @@ Aligned and cropped data have sequential filenames (starting from 1) ensuring cr
   - `ANNO_VIS_CLASS`, `ANNO_VIS_INST` (colour-coded for visualisation)
 
 - Modalities:
-  - Depth: `D`, `D_Focus`, `D_Focus960N`, `D16`
-  - Infrared: `I`, `I16`
+  - Depth: `D`, `D_Focus`, `D_FocusN`, `D_Focus960N`, `D16`
+  - Infrared: `I`, `I16`, `IAIP`
   - Metadata: `META`
   - RGB (lighting settings): `RGB1` – `RGB8`
   - Thermal: `T8`, `T16`, `T24`
@@ -115,10 +123,12 @@ MM5_ALIGNED/
 ├── ANNO_VIS_INST/
 ├── D/
 ├── D_Focus/
+├── D_FocusN/
 ├── D_Focus960N/
 ├── D_16
 ├── I
 ├── I16
+├── IAIP
 ├── META
 ├── RGB1/ ... RGB8/
 ├── T8/
