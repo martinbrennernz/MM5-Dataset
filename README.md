@@ -10,11 +10,14 @@ Make sure you download the latest version.
   - Added IAIP (Geometrically aligned intensity data created by using inpainted depth data – can include distortions)
   - Fixed labels (removed underrepresented "sliced" classes)
   - Fixed missing image issue in some processed data.
-  
+- 2025-08-03 - Updated:
+  - Added RAW IAIP (Geometrically aligned intensity data created by using inpainted depth data – can include distortions)
+  - Corrected class ID assignment to UV and thermal labels - now all IDs are aligned with the aligned dataset.
+
 ## Download Links
 figshare: [https://doi.org/10.6084/m9.figshare.28722164](https://doi.org/10.6084/m9.figshare.28722164)
 
-- [Download Link for Raw Data (incl. raw annotations)](https://figshare.com/ndownloader/files/55555451)
+- [Download Link for Raw Data (incl. raw annotations)](https://figshare.com/ndownloader/files/56868443)
 - [Download Link for Aligned/Cropped Data(incl. aligned annotations)](https://figshare.com/ndownloader/files/55555457)
 - [Download Link for Label Studio annotations (JSON & COCO exports)](https://figshare.com/ndownloader/files/55555424)
 - [Download Link for MM5 Calibration Images](https://figshare.com/ndownloader/files/55555421)
