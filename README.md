@@ -28,11 +28,28 @@ If you use this dataset, please cite our publication and the dataset:
 Brenner, Martin; Reyes, Napoleon; Susnjak, Teo; Barczak, Andre (2025). MM5: Multimodal Image Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.28722164
 ```
 ```
-Brenner, Martin and Reyes, Napoleon H. and Susnjak, Teo and Barczak, Andre L. C., MM5: Multimodal Image Capture and Dataset Generation for RGB, Depth, Thermal, UV, and NIR. Available at SSRN: https://ssrn.com/abstract=5227457 or http://dx.doi.org/10.2139/ssrn.5227457
+@article{BRENNER2026103516,
+title = {MM5: Multimodal image capture and dataset generation for RGB, depth, thermal, UV, and NIR},
+journal = {Information Fusion},
+volume = {126},
+pages = {103516},
+year = {2026},
+issn = {1566-2535},
+doi = {https://doi.org/10.1016/j.inffus.2025.103516},
+url = {https://www.sciencedirect.com/science/article/pii/S1566253525005883},
+author = {Martin Brenner and Napoleon H. Reyes and Teo Susnjak and Andre L.C. Barczak},
+keywords = {Multimodal dataset, Thermal imaging, UV imaging, Preprocessing, Sensor fusion, Dataset annotation}
+}
 ```
-## Preprint on SSRN
-[MM5: Multimodal Image Capture and Dataset Generation for RGB, Depth, Thermal, UV, and NIR](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5227457)
 
+If you use GatedFusion-Net, please cite this publication:
+```
+Brenner, Martin and Reyes, Napoleon H. and Susnjak, Teo and Barczak, Andre L. C., GatedFusion-Net: Per-Pixel Modality Selection in a Five-Cue Transformer for RGB-D-I-T-UV Fusion (June 08, 2025). Available at SSRN: https://ssrn.com/abstract=5379135 or http://dx.doi.org/10.2139/ssrn.5379135
+```
+## Publication
+[MM5: Multimodal Image Capture and Dataset Generation for RGB, Depth, Thermal, UV, and NIR](https://doi.org/10.1016/j.inffus.2025.103516)
+
+[GatedFusion-Net: Per-Pixel Modality Selection in a Five-Cue Transformer for RGB-D-I-T-UV Fusion](https://dx.doi.org/10.2139/ssrn.5379135)
 ## License
 This dataset is available under [Creative Commons Attribution-NonCommercial 4.0](https://creativecommons.org/licenses/by/4.0/).
   
